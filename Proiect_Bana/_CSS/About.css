@@ -1,0 +1,27 @@
+.main_body{display: flex;}
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.column {
+  padding: 1em;
+  flex: 1;
+  width:50%;
+  float: left;
+  background-color: #111;
+}
+.centered {
+  margin-top: 100px;
+  text-align: center;
+}
+.centered img {
+  width: 250px;
+  border-radius: 50%;
+}
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  font-weight: 900;
+}
